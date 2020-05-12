@@ -1,0 +1,23 @@
+{
+	"name": "@prefresh/parcel-config",
+	"version": "0.6.0",
+	"main": "index.json",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoviDeCroock/prefresh.git",
+		"directory": "packages/parcel-config"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JoviDeCroock/prefresh/issues"
+	},
+	"homepage": "https://github.com/JoviDeCroock/prefresh#readme",
+	"dependencies": {
+		"@prefresh/parcel-runtime-prefresh": "*",
+		"@prefresh/parcel-transformer-prefresh-wrap": "*",
+		"@prefresh/parcel-transformer-prefresh-babel": "*"
+	},
+	"peerDependencies": {
+		"preact": "^10.4.0"
+	}
+}

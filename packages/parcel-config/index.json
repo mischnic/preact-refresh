@@ -1,0 +1,13 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.{js,mjs,jsm,jsx,es6,cjs,ts,tsx}": [
+      "@prefresh/parcel-transformer-prefresh-babel",
+      "...",
+      "@prefresh/parcel-transformer-prefresh-wrap"
+    ]
+  },
+  "runtimes": {
+    "browser": ["...", "@prefresh/parcel-runtime-prefresh"]
+  }
+}

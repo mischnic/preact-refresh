@@ -1,0 +1,30 @@
+{
+	"name": "@prefresh/parcel-transformer-prefresh-wrap",
+	"version": "0.6.0",
+	"main": "src/index.js",
+	"scripts": {
+		"lint": "eslint src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoviDeCroock/prefresh.git",
+		"directory": "packages/parcel-transformer-prefresh-wrap"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JoviDeCroock/prefresh/issues"
+	},
+	"homepage": "https://github.com/JoviDeCroock/prefresh#readme",
+	"engines": {
+		"node": ">= 10.0.0",
+		"parcel": "^2.0.0-alpha.1.1"
+	},
+	"dependencies": {
+		"@babel/template": "^7.8.6",
+		"@babel/types": "^7.8.6",
+		"@parcel/babel-ast-utils": "^2.0.0-nightly.1910",
+		"@parcel/plugin": "^2.0.0-nightly.288",
+		"@prefresh/utils": "^0.2.0",
+		"semver": "^7.3.2"
+	}
+}
